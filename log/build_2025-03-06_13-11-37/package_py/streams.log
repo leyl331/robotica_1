@@ -1,0 +1,30 @@
+[0.354s] Invoking command in '/home/leyla/Desktop/clase1/prac1_ws/src/package_py': PYTHONPATH=/home/leyla/Desktop/clase1/prac1_ws/build/package_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/clase1/prac1_ws/install/package_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/package_py build --build-base /home/leyla/Desktop/clase1/prac1_ws/build/package_py/build install --record /home/leyla/Desktop/clase1/prac1_ws/build/package_py/install.log --single-version-externally-managed install_data
+[0.492s] running egg_info
+[0.493s] writing ../../build/package_py/package_py.egg-info/PKG-INFO
+[0.493s] writing dependency_links to ../../build/package_py/package_py.egg-info/dependency_links.txt
+[0.493s] writing entry points to ../../build/package_py/package_py.egg-info/entry_points.txt
+[0.493s] writing requirements to ../../build/package_py/package_py.egg-info/requires.txt
+[0.493s] writing top-level names to ../../build/package_py/package_py.egg-info/top_level.txt
+[0.494s] reading manifest file '../../build/package_py/package_py.egg-info/SOURCES.txt'
+[0.502s] adding license file 'LICENSE'
+[0.503s] writing manifest file '../../build/package_py/package_py.egg-info/SOURCES.txt'
+[0.503s] running build
+[0.503s] running build_py
+[0.503s] copying package_py/e2_n3.py -> /home/leyla/Desktop/clase1/prac1_ws/build/package_py/build/lib/package_py
+[0.503s] running install
+[0.504s] running install_lib
+[0.504s] copying /home/leyla/Desktop/clase1/prac1_ws/build/package_py/build/lib/package_py/e2_n3.py -> /home/leyla/Desktop/clase1/prac1_ws/install/package_py/lib/python3.10/site-packages/package_py
+[0.505s] byte-compiling /home/leyla/Desktop/clase1/prac1_ws/install/package_py/lib/python3.10/site-packages/package_py/e2_n3.py to e2_n3.cpython-310.pyc
+[0.505s] running install_data
+[0.505s] running install_egg_info
+[0.507s] removing '/home/leyla/Desktop/clase1/prac1_ws/install/package_py/lib/python3.10/site-packages/package_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.507s] Copying ../../build/package_py/package_py.egg-info to /home/leyla/Desktop/clase1/prac1_ws/install/package_py/lib/python3.10/site-packages/package_py-0.0.0-py3.10.egg-info
+[0.507s] running install_scripts
+[0.521s] Installing e2n1 script to /home/leyla/Desktop/clase1/prac1_ws/install/package_py/lib/package_py
+[0.522s] Installing e2n2 script to /home/leyla/Desktop/clase1/prac1_ws/install/package_py/lib/package_py
+[0.522s] Installing e2n3 script to /home/leyla/Desktop/clase1/prac1_ws/install/package_py/lib/package_py
+[0.522s] Installing node1 script to /home/leyla/Desktop/clase1/prac1_ws/install/package_py/lib/package_py
+[0.522s] Installing node2 script to /home/leyla/Desktop/clase1/prac1_ws/install/package_py/lib/package_py
+[0.522s] Installing node3 script to /home/leyla/Desktop/clase1/prac1_ws/install/package_py/lib/package_py
+[0.522s] writing list of installed files to '/home/leyla/Desktop/clase1/prac1_ws/build/package_py/install.log'
+[0.538s] Invoked command in '/home/leyla/Desktop/clase1/prac1_ws/src/package_py' returned '0': PYTHONPATH=/home/leyla/Desktop/clase1/prac1_ws/build/package_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/clase1/prac1_ws/install/package_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/package_py build --build-base /home/leyla/Desktop/clase1/prac1_ws/build/package_py/build install --record /home/leyla/Desktop/clase1/prac1_ws/build/package_py/install.log --single-version-externally-managed install_data

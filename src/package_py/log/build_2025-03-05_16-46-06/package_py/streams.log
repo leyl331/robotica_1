@@ -1,0 +1,46 @@
+[0.346s] Invoking command in '/home/leyla/Desktop/clase1/prac1_ws/src/package_py': PYTHONPATH=/home/leyla/Desktop/clase1/prac1_ws/src/package_py/build/package_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/clase1/prac1_ws/src/package_py/install/package_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/package_py build --build-base /home/leyla/Desktop/clase1/prac1_ws/src/package_py/build/package_py/build install --record /home/leyla/Desktop/clase1/prac1_ws/src/package_py/build/package_py/install.log --single-version-externally-managed install_data
+[0.479s] running egg_info
+[0.479s] creating build/package_py/package_py.egg-info
+[0.479s] writing build/package_py/package_py.egg-info/PKG-INFO
+[0.479s] writing dependency_links to build/package_py/package_py.egg-info/dependency_links.txt
+[0.479s] writing entry points to build/package_py/package_py.egg-info/entry_points.txt
+[0.479s] writing requirements to build/package_py/package_py.egg-info/requires.txt
+[0.479s] writing top-level names to build/package_py/package_py.egg-info/top_level.txt
+[0.479s] writing manifest file 'build/package_py/package_py.egg-info/SOURCES.txt'
+[0.480s] reading manifest file 'build/package_py/package_py.egg-info/SOURCES.txt'
+[0.480s] adding license file 'LICENSE'
+[0.481s] writing manifest file 'build/package_py/package_py.egg-info/SOURCES.txt'
+[0.481s] running build
+[0.481s] running build_py
+[0.481s] creating /home/leyla/Desktop/clase1/prac1_ws/src/package_py/build/package_py/build
+[0.481s] creating /home/leyla/Desktop/clase1/prac1_ws/src/package_py/build/package_py/build/lib
+[0.481s] creating /home/leyla/Desktop/clase1/prac1_ws/src/package_py/build/package_py/build/lib/package_py
+[0.481s] copying package_py/__init__.py -> /home/leyla/Desktop/clase1/prac1_ws/src/package_py/build/package_py/build/lib/package_py
+[0.481s] copying package_py/node2.py -> /home/leyla/Desktop/clase1/prac1_ws/src/package_py/build/package_py/build/lib/package_py
+[0.481s] copying package_py/node1.py -> /home/leyla/Desktop/clase1/prac1_ws/src/package_py/build/package_py/build/lib/package_py
+[0.482s] copying package_py/node3.py -> /home/leyla/Desktop/clase1/prac1_ws/src/package_py/build/package_py/build/lib/package_py
+[0.482s] running install
+[0.482s] running install_lib
+[0.482s] creating /home/leyla/Desktop/clase1/prac1_ws/src/package_py/install/package_py/lib/python3.10/site-packages/package_py
+[0.482s] copying /home/leyla/Desktop/clase1/prac1_ws/src/package_py/build/package_py/build/lib/package_py/__init__.py -> /home/leyla/Desktop/clase1/prac1_ws/src/package_py/install/package_py/lib/python3.10/site-packages/package_py
+[0.483s] copying /home/leyla/Desktop/clase1/prac1_ws/src/package_py/build/package_py/build/lib/package_py/node2.py -> /home/leyla/Desktop/clase1/prac1_ws/src/package_py/install/package_py/lib/python3.10/site-packages/package_py
+[0.483s] copying /home/leyla/Desktop/clase1/prac1_ws/src/package_py/build/package_py/build/lib/package_py/node1.py -> /home/leyla/Desktop/clase1/prac1_ws/src/package_py/install/package_py/lib/python3.10/site-packages/package_py
+[0.483s] copying /home/leyla/Desktop/clase1/prac1_ws/src/package_py/build/package_py/build/lib/package_py/node3.py -> /home/leyla/Desktop/clase1/prac1_ws/src/package_py/install/package_py/lib/python3.10/site-packages/package_py
+[0.483s] byte-compiling /home/leyla/Desktop/clase1/prac1_ws/src/package_py/install/package_py/lib/python3.10/site-packages/package_py/__init__.py to __init__.cpython-310.pyc
+[0.483s] byte-compiling /home/leyla/Desktop/clase1/prac1_ws/src/package_py/install/package_py/lib/python3.10/site-packages/package_py/node2.py to node2.cpython-310.pyc
+[0.483s] byte-compiling /home/leyla/Desktop/clase1/prac1_ws/src/package_py/install/package_py/lib/python3.10/site-packages/package_py/node1.py to node1.cpython-310.pyc
+[0.484s] byte-compiling /home/leyla/Desktop/clase1/prac1_ws/src/package_py/install/package_py/lib/python3.10/site-packages/package_py/node3.py to node3.cpython-310.pyc
+[0.484s] running install_data
+[0.484s] creating /home/leyla/Desktop/clase1/prac1_ws/src/package_py/install/package_py/share/ament_index
+[0.484s] creating /home/leyla/Desktop/clase1/prac1_ws/src/package_py/install/package_py/share/ament_index/resource_index
+[0.484s] creating /home/leyla/Desktop/clase1/prac1_ws/src/package_py/install/package_py/share/ament_index/resource_index/packages
+[0.484s] copying resource/package_py -> /home/leyla/Desktop/clase1/prac1_ws/src/package_py/install/package_py/share/ament_index/resource_index/packages
+[0.484s] copying package.xml -> /home/leyla/Desktop/clase1/prac1_ws/src/package_py/install/package_py/share/package_py
+[0.484s] running install_egg_info
+[0.485s] Copying build/package_py/package_py.egg-info to /home/leyla/Desktop/clase1/prac1_ws/src/package_py/install/package_py/lib/python3.10/site-packages/package_py-0.0.0-py3.10.egg-info
+[0.486s] running install_scripts
+[0.500s] Installing node1 script to /home/leyla/Desktop/clase1/prac1_ws/src/package_py/install/package_py/lib/package_py
+[0.500s] Installing node2 script to /home/leyla/Desktop/clase1/prac1_ws/src/package_py/install/package_py/lib/package_py
+[0.500s] Installing node3 script to /home/leyla/Desktop/clase1/prac1_ws/src/package_py/install/package_py/lib/package_py
+[0.500s] writing list of installed files to '/home/leyla/Desktop/clase1/prac1_ws/src/package_py/build/package_py/install.log'
+[0.515s] Invoked command in '/home/leyla/Desktop/clase1/prac1_ws/src/package_py' returned '0': PYTHONPATH=/home/leyla/Desktop/clase1/prac1_ws/src/package_py/build/package_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/clase1/prac1_ws/src/package_py/install/package_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/package_py build --build-base /home/leyla/Desktop/clase1/prac1_ws/src/package_py/build/package_py/build install --record /home/leyla/Desktop/clase1/prac1_ws/src/package_py/build/package_py/install.log --single-version-externally-managed install_data
