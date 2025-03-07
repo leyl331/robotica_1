@@ -1,0 +1,9 @@
+[console_scripts]
+custom_pub = my_package_class.pub_custom_msg:main
+custom_sub = my_package_class.sub_custom_msg:main
+ps = my_package_class.ps:main
+pub = my_package_class.pub:main
+s_test = my_package_class.s_test:main
+service = my_package_class.service:main
+sub = my_package_class.sub:main
+

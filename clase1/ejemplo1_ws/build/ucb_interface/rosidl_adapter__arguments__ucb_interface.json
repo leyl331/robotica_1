@@ -1,0 +1,8 @@
+{
+  "package_name": "ucb_interface",
+  "non_idl_tuples": [
+    "/home/leyla/Desktop/clase1/ejemplo1_ws/src/ucb_interface:msg/Num.msg",
+    "/home/leyla/Desktop/clase1/ejemplo1_ws/src/ucb_interface:msg/Sphere.msg",
+    "/home/leyla/Desktop/clase1/ejemplo1_ws/src/ucb_interface:srv/Addtwonumbers.srv"
+  ]
+}

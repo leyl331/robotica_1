@@ -1,0 +1,2 @@
+Invoking command in '/home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub': /usr/bin/cmake --build /home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub -- -j20 -l20
+Invoked command in '/home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub' returned '2': /usr/bin/cmake --build /home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub -- -j20 -l20

@@ -1,0 +1,7 @@
+{
+    "cmake.sourceDirectory": "/home/leyla/Desktop/clase1/ejemplo1_ws/src/cpp_pubsub",
+    "files.associations": {
+        "chrono": "cpp",
+        "functional": "cpp"
+    }
+}

@@ -1,0 +1,12 @@
+/home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub/CMakeFiles/uninstall.dir
+/home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir
+/home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub/CMakeFiles/pub.dir
+/home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub/CMakeFiles/sub.dir
+/home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub/CMakeFiles/pub_sub.dir
+/home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub/CMakeFiles/test.dir
+/home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub/CMakeFiles/edit_cache.dir
+/home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub/CMakeFiles/rebuild_cache.dir
+/home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub/CMakeFiles/list_install_components.dir
+/home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub/CMakeFiles/install.dir
+/home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub/CMakeFiles/install/local.dir
+/home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub/CMakeFiles/install/strip.dir
