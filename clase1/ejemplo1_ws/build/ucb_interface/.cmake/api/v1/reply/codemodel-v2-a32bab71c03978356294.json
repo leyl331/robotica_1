@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e28e5417b5583f4e6f76.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "ucb_interface__py",
+					"jsonFile" : "directory-ucb_interface__py-1f17cdf5ce2253b329bf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/leyla/Desktop/clase1/ejemplo1_ws/build/ucb_interface/ucb_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ucb_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ucb_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ucb_interface_egg-9f2ec38b7bcd6435c854.json",
+					"name" : "ament_cmake_python_build_ucb_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ucb_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ucb_interface-f24cad8c2acf4b5dd146.json",
+					"name" : "ament_cmake_python_copy_ucb_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface-b1cf4e87c5bf816c09c3.json",
+					"name" : "ucb_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface__cpp-0aeba66f767f404e75ba.json",
+					"name" : "ucb_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ucb_interface__py::@b8c714724c153f70e899",
+					"jsonFile" : "target-ucb_interface__py-ef581bb4f29ec3c93276.json",
+					"name" : "ucb_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface__rosidl_generator_c-89d0c10360d27d0749ea.json",
+					"name" : "ucb_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface__rosidl_generator_py-ced5fae91d9d924685f4.json",
+					"name" : "ucb_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface__rosidl_typesupport_c-65caf28ea9d599b032f3.json",
+					"name" : "ucb_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface__rosidl_typesupport_c__pyext-2a565b2339e8f1a553c4.json",
+					"name" : "ucb_interface__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface__rosidl_typesupport_cpp-a460d786cad7dbb1e50f.json",
+					"name" : "ucb_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface__rosidl_typesupport_fastrtps_c-62da54186a737867d080.json",
+					"name" : "ucb_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface__rosidl_typesupport_fastrtps_c__pyext-c990d98d8f08e5d5172b.json",
+					"name" : "ucb_interface__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface__rosidl_typesupport_fastrtps_cpp-409acc7cd5136c1723ca.json",
+					"name" : "ucb_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface__rosidl_typesupport_introspection_c-984a78ca450fdca604e3.json",
+					"name" : "ucb_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface__rosidl_typesupport_introspection_c__pyext-1544628bf08a669aad64.json",
+					"name" : "ucb_interface__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface__rosidl_typesupport_introspection_cpp-559e0b9567f30d911582.json",
+					"name" : "ucb_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ucb_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ucb_interface_uninstall-eb4ca0da01abb58eddca.json",
+					"name" : "ucb_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7f8ff20cc0d990734383.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/leyla/Desktop/clase1/ejemplo1_ws/build/ucb_interface",
+		"source" : "/home/leyla/Desktop/clase1/ejemplo1_ws/src/ucb_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

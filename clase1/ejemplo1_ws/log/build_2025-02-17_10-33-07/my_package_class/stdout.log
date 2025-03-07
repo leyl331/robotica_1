@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing my_package_class.egg-info/PKG-INFO
+writing dependency_links to my_package_class.egg-info/dependency_links.txt
+writing entry points to my_package_class.egg-info/entry_points.txt
+writing requirements to my_package_class.egg-info/requires.txt
+writing top-level names to my_package_class.egg-info/top_level.txt
+reading manifest file 'my_package_class.egg-info/SOURCES.txt'
+writing manifest file 'my_package_class.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/python3.10/site-packages/my-package-class.egg-link (link to .)
+Installing ejemplo_ps script to /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/my_package_class
+Installing ejemplo_pub script to /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/my_package_class
+Installing ejemplo_sub script to /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/my_package_class
+
+Installed /home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class
+running symlink_data
+symbolically linking /home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class/resource/my_package_class -> /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/share/ament_index/resource_index/packages
+symbolically linking /home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class/package.xml -> /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/share/my_package_class

@@ -1,0 +1,34 @@
+[0.463s] Invoking command in '/home/leyla/Desktop/clase1/ejemplo1_ws/src/my_package_class': PYTHONPATH=/home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package_class build --build-base /home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class/build install --record /home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class/install.log --single-version-externally-managed install_data
+[0.613s] running egg_info
+[0.613s] writing ../../build/my_package_class/my_package_class.egg-info/PKG-INFO
+[0.614s] writing dependency_links to ../../build/my_package_class/my_package_class.egg-info/dependency_links.txt
+[0.614s] writing entry points to ../../build/my_package_class/my_package_class.egg-info/entry_points.txt
+[0.614s] writing requirements to ../../build/my_package_class/my_package_class.egg-info/requires.txt
+[0.614s] writing top-level names to ../../build/my_package_class/my_package_class.egg-info/top_level.txt
+[0.617s] reading manifest file '../../build/my_package_class/my_package_class.egg-info/SOURCES.txt'
+[0.617s] adding license file 'LICENSE'
+[0.617s] writing manifest file '../../build/my_package_class/my_package_class.egg-info/SOURCES.txt'
+[0.617s] running build
+[0.617s] running build_py
+[0.618s] copying my_package_class/service.py -> /home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class/build/lib/my_package_class
+[0.618s] copying my_package_class/sub_custom_msg.py -> /home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class/build/lib/my_package_class
+[0.618s] running install
+[0.618s] running install_lib
+[0.619s] copying /home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class/build/lib/my_package_class/service.py -> /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/python3.10/site-packages/my_package_class
+[0.619s] copying /home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class/build/lib/my_package_class/sub_custom_msg.py -> /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/python3.10/site-packages/my_package_class
+[0.620s] byte-compiling /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/python3.10/site-packages/my_package_class/service.py to service.cpython-310.pyc
+[0.620s] byte-compiling /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/python3.10/site-packages/my_package_class/sub_custom_msg.py to sub_custom_msg.cpython-310.pyc
+[0.620s] running install_data
+[0.621s] running install_egg_info
+[0.622s] removing '/home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/python3.10/site-packages/my_package_class-0.0.0-py3.10.egg-info' (and everything under it)
+[0.622s] Copying ../../build/my_package_class/my_package_class.egg-info to /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/python3.10/site-packages/my_package_class-0.0.0-py3.10.egg-info
+[0.623s] running install_scripts
+[0.639s] Installing custom_pub script to /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/my_package_class
+[0.639s] Installing custom_sub script to /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/my_package_class
+[0.639s] Installing ps script to /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/my_package_class
+[0.639s] Installing pub script to /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/my_package_class
+[0.640s] Installing s_test script to /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/my_package_class
+[0.640s] Installing service script to /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/my_package_class
+[0.640s] Installing sub script to /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/my_package_class
+[0.640s] writing list of installed files to '/home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class/install.log'
+[0.656s] Invoked command in '/home/leyla/Desktop/clase1/ejemplo1_ws/src/my_package_class' returned '0': PYTHONPATH=/home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package_class build --build-base /home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class/build install --record /home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class/install.log --single-version-externally-managed install_data

@@ -1,0 +1,21 @@
+[0.343s] Invoking command in '/home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class': PYTHONPATH=/home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class/build --no-deps symlink_data --force
+[0.494s] running develop
+[0.570s] running egg_info
+[0.570s] writing my_package_class.egg-info/PKG-INFO
+[0.571s] writing dependency_links to my_package_class.egg-info/dependency_links.txt
+[0.571s] writing entry points to my_package_class.egg-info/entry_points.txt
+[0.571s] writing requirements to my_package_class.egg-info/requires.txt
+[0.571s] writing top-level names to my_package_class.egg-info/top_level.txt
+[0.572s] reading manifest file 'my_package_class.egg-info/SOURCES.txt'
+[0.573s] writing manifest file 'my_package_class.egg-info/SOURCES.txt'
+[0.573s] running build_ext
+[0.573s] Creating /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/python3.10/site-packages/my-package-class.egg-link (link to .)
+[0.574s] Installing ejemplo_ps script to /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/my_package_class
+[0.574s] Installing ejemplo_pub script to /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/my_package_class
+[0.574s] Installing ejemplo_sub script to /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/my_package_class
+[0.574s] 
+[0.574s] Installed /home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class
+[0.574s] running symlink_data
+[0.574s] symbolically linking /home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class/resource/my_package_class -> /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/share/ament_index/resource_index/packages
+[0.574s] symbolically linking /home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class/package.xml -> /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/share/my_package_class
+[0.590s] Invoked command in '/home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class' returned '0': PYTHONPATH=/home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class/build --no-deps symlink_data --force

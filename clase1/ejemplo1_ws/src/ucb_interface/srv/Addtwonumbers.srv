@@ -1,0 +1,9 @@
+float16 th1
+float16 th2
+float16 th3
+float16 l1
+float16 l2
+---
+int64 x
+int64 y
+int64 z

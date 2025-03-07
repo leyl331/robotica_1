@@ -1,0 +1,22 @@
+[ 66%] Built target pub_sub
+[ 66%] Built target pub
+[100%] Built target sub
+-- Install configuration: ""
+-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/lib/cpp_pubsub/pub
+-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/lib/cpp_pubsub/sub
+-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/lib/cpp_pubsub/pub_sub
+-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+-- Installing: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml

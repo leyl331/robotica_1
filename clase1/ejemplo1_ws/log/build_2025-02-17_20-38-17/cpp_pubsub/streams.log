@@ -1,0 +1,26 @@
+[0.009s] Invoking command in '/home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class:/home/leyla/Desktop/robotica_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub -- -j20 -l20
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target pub_c[0m
+[0.052s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_c.dir/src/pub.cpp.o[0m
+[2.219s] [100%] [32m[1mLinking CXX executable pub_c[0m
+[2.339s] [100%] Built target pub_c
+[2.347s] Invoked command in '/home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class:/home/leyla/Desktop/robotica_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub -- -j20 -l20
+[2.354s] Invoking command in '/home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class:/home/leyla/Desktop/robotica_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub
+[2.361s] -- Install configuration: ""
+[2.361s] -- Installing: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/lib/cpp_pubsub/pub_c
+[2.361s] -- Set runtime path of "/home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/lib/cpp_pubsub/pub_c" to ""
+[2.361s] -- Installing: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[2.361s] -- Installing: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[2.361s] -- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[2.361s] -- Installing: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[2.362s] -- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[2.362s] -- Installing: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[2.362s] -- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[2.362s] -- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[2.362s] -- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[2.362s] -- Installing: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[2.362s] -- Installing: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[2.362s] -- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[2.363s] -- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[2.363s] -- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[2.363s] -- Installing: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[2.364s] Invoked command in '/home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class:/home/leyla/Desktop/robotica_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub

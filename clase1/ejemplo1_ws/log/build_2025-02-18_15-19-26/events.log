@@ -1,0 +1,155 @@
+[0.000000] (-) TimerEvent: {}
+[0.000175] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000209] (my_package_class) JobQueued: {'identifier': 'my_package_class', 'dependencies': OrderedDict()}
+[0.000250] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.003604] (my_package_class) JobStarted: {'identifier': 'my_package_class'}
+[0.007602] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.008162] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.008664] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub', '--', '-j20', '-l20'], 'cwd': '/home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leyla'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/leyla'), ('OLDPWD', '/home/leyla'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1197'), ('SYSTEMD_EXEC_PID', '1355'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3843'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/leyla/Desktop/robotica_ws/install:/home/leyla/Desktop/clase1/ejemplo1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'leyla'), ('JOURNAL_STREAM', '8:10681'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leyla'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/leyla-Dell-G15-5530:@/tmp/.ICE-unix/1322,unix/leyla-Dell-G15-5530:/tmp/.ICE-unix/1322'), ('INVOCATION_ID', '2d4697c928a049a8b97afef84f5f4dff'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2LJH22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class:/home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub:/home/leyla/Desktop/robotica_ws/install/my_package_c:/home/leyla/Desktop/robotica_ws/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:30b55469-9964-4cc2-bd58-3c49e506dae5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/python3.10/site-packages:/home/leyla/Desktop/robotica_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub:/home/leyla/Desktop/robotica_ws/install/my_package_c:/home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class:/home/leyla/Desktop/robotica_ws/install/my_package:/opt/ros/humble')]), 'shell': False}
+[0.028008] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099378] (-) TimerEvent: {}
+[0.121718] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.139273] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.140742] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.144548] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.150671] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.159160] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.178854] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.179656] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199580] (-) TimerEvent: {}
+[0.245646] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.280330] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.299678] (-) TimerEvent: {}
+[0.325507] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.325697] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.325777] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.326024] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.326641] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.326761] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.326862] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.327509] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.337811] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[0.341379] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub\n'}
+[0.347168] (my_package_class) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package_class', 'build', '--build-base', '/home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class/build', 'install', '--record', '/home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/leyla/Desktop/clase1/ejemplo1_ws/src/my_package_class', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'leyla', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/leyla', 'OLDPWD': '/home/leyla', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1197', 'SYSTEMD_EXEC_PID': '1355', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3843', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/leyla/Desktop/robotica_ws/install:/home/leyla/Desktop/clase1/ejemplo1_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'leyla', 'JOURNAL_STREAM': '8:10681', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'leyla', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/leyla-Dell-G15-5530:@/tmp/.ICE-unix/1322,unix/leyla-Dell-G15-5530:/tmp/.ICE-unix/1322', 'INVOCATION_ID': '2d4697c928a049a8b97afef84f5f4dff', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.2LJH22', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class:/home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub:/home/leyla/Desktop/robotica_ws/install/my_package_c:/home/leyla/Desktop/robotica_ws/install/my_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:30b55469-9964-4cc2-bd58-3c49e506dae5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/python3.10/site-packages:/home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/python3.10/site-packages:/home/leyla/Desktop/robotica_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub:/home/leyla/Desktop/robotica_ws/install/my_package_c'}, 'shell': False}
+[0.359310] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sub\x1b[0m\n'}
+[0.359648] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pub\x1b[0m\n'}
+[0.359750] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pub_sub\x1b[0m\n'}
+[0.372018] (cpp_pubsub) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/pub_sub.dir/src/pub_sub.cpp.o\x1b[0m\n'}
+[0.372792] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o\x1b[0m\n'}
+[0.372917] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o\x1b[0m\n'}
+[0.399778] (-) TimerEvent: {}
+[0.496407] (my_package_class) StdoutLine: {'line': b'running egg_info\n'}
+[0.496826] (my_package_class) StdoutLine: {'line': b'writing ../../build/my_package_class/my_package_class.egg-info/PKG-INFO\n'}
+[0.497035] (my_package_class) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package_class/my_package_class.egg-info/dependency_links.txt\n'}
+[0.497216] (my_package_class) StdoutLine: {'line': b'writing entry points to ../../build/my_package_class/my_package_class.egg-info/entry_points.txt\n'}
+[0.497290] (my_package_class) StdoutLine: {'line': b'writing requirements to ../../build/my_package_class/my_package_class.egg-info/requires.txt\n'}
+[0.497394] (my_package_class) StdoutLine: {'line': b'writing top-level names to ../../build/my_package_class/my_package_class.egg-info/top_level.txt\n'}
+[0.498296] (my_package_class) StdoutLine: {'line': b"reading manifest file '../../build/my_package_class/my_package_class.egg-info/SOURCES.txt'\n"}
+[0.499877] (-) TimerEvent: {}
+[0.506516] (my_package_class) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.506979] (my_package_class) StdoutLine: {'line': b"writing manifest file '../../build/my_package_class/my_package_class.egg-info/SOURCES.txt'\n"}
+[0.507123] (my_package_class) StdoutLine: {'line': b'running build\n'}
+[0.507196] (my_package_class) StdoutLine: {'line': b'running build_py\n'}
+[0.507380] (my_package_class) StdoutLine: {'line': b'running install\n'}
+[0.507569] (my_package_class) StdoutLine: {'line': b'running install_lib\n'}
+[0.508404] (my_package_class) StdoutLine: {'line': b'running install_data\n'}
+[0.508668] (my_package_class) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.509708] (my_package_class) StdoutLine: {'line': b"removing '/home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/python3.10/site-packages/my_package_class-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.509930] (my_package_class) StdoutLine: {'line': b'Copying ../../build/my_package_class/my_package_class.egg-info to /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/python3.10/site-packages/my_package_class-0.0.0-py3.10.egg-info\n'}
+[0.510106] (my_package_class) StdoutLine: {'line': b'running install_scripts\n'}
+[0.523892] (my_package_class) StdoutLine: {'line': b'Installing ps script to /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/my_package_class\n'}
+[0.524139] (my_package_class) StdoutLine: {'line': b'Installing pub script to /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/my_package_class\n'}
+[0.524182] (my_package_class) StdoutLine: {'line': b'Installing s_test script to /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/my_package_class\n'}
+[0.524215] (my_package_class) StdoutLine: {'line': b'Installing sub script to /home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/my_package_class\n'}
+[0.524245] (my_package_class) StdoutLine: {'line': b"writing list of installed files to '/home/leyla/Desktop/clase1/ejemplo1_ws/build/my_package_class/install.log'\n"}
+[0.540755] (my_package_class) CommandEnded: {'returncode': 0}
+[0.546912] (my_package_class) JobEnded: {'identifier': 'my_package_class', 'rc': 0}
+[0.599981] (-) TimerEvent: {}
+[0.700245] (-) TimerEvent: {}
+[0.800509] (-) TimerEvent: {}
+[0.900852] (-) TimerEvent: {}
+[1.001141] (-) TimerEvent: {}
+[1.101474] (-) TimerEvent: {}
+[1.201721] (-) TimerEvent: {}
+[1.302047] (-) TimerEvent: {}
+[1.402366] (-) TimerEvent: {}
+[1.502707] (-) TimerEvent: {}
+[1.603035] (-) TimerEvent: {}
+[1.703373] (-) TimerEvent: {}
+[1.803624] (-) TimerEvent: {}
+[1.903890] (-) TimerEvent: {}
+[2.004208] (-) TimerEvent: {}
+[2.104529] (-) TimerEvent: {}
+[2.204771] (-) TimerEvent: {}
+[2.305035] (-) TimerEvent: {}
+[2.405327] (-) TimerEvent: {}
+[2.505721] (-) TimerEvent: {}
+[2.605981] (-) TimerEvent: {}
+[2.706292] (-) TimerEvent: {}
+[2.806550] (-) TimerEvent: {}
+[2.906789] (-) TimerEvent: {}
+[3.007101] (-) TimerEvent: {}
+[3.062898] (cpp_pubsub) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable pub\x1b[0m\n'}
+[3.107255] (-) TimerEvent: {}
+[3.184784] (cpp_pubsub) StdoutLine: {'line': b'[ 66%] Built target pub\n'}
+[3.207476] (-) TimerEvent: {}
+[3.307796] (-) TimerEvent: {}
+[3.408216] (-) TimerEvent: {}
+[3.508595] (-) TimerEvent: {}
+[3.608901] (-) TimerEvent: {}
+[3.709179] (-) TimerEvent: {}
+[3.809450] (-) TimerEvent: {}
+[3.909704] (-) TimerEvent: {}
+[4.010048] (-) TimerEvent: {}
+[4.110372] (-) TimerEvent: {}
+[4.210664] (-) TimerEvent: {}
+[4.310939] (-) TimerEvent: {}
+[4.411210] (-) TimerEvent: {}
+[4.511450] (-) TimerEvent: {}
+[4.611681] (-) TimerEvent: {}
+[4.711980] (-) TimerEvent: {}
+[4.812344] (-) TimerEvent: {}
+[4.912621] (-) TimerEvent: {}
+[5.012903] (-) TimerEvent: {}
+[5.113204] (-) TimerEvent: {}
+[5.213570] (-) TimerEvent: {}
+[5.313875] (-) TimerEvent: {}
+[5.414250] (-) TimerEvent: {}
+[5.437918] (cpp_pubsub) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable sub\x1b[0m\n'}
+[5.514467] (-) TimerEvent: {}
+[5.614817] (-) TimerEvent: {}
+[5.709206] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pub_sub\x1b[0m\n'}
+[5.714990] (-) TimerEvent: {}
+[5.747012] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target sub\n'}
+[5.815098] (-) TimerEvent: {}
+[5.915400] (-) TimerEvent: {}
+[5.971236] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target pub_sub\n'}
+[5.980364] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[5.980903] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[5.988039] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub'], 'cwd': '/home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leyla'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/leyla'), ('OLDPWD', '/home/leyla'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1197'), ('SYSTEMD_EXEC_PID', '1355'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3843'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/leyla/Desktop/robotica_ws/install:/home/leyla/Desktop/clase1/ejemplo1_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'leyla'), ('JOURNAL_STREAM', '8:10681'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leyla'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/leyla-Dell-G15-5530:@/tmp/.ICE-unix/1322,unix/leyla-Dell-G15-5530:/tmp/.ICE-unix/1322'), ('INVOCATION_ID', '2d4697c928a049a8b97afef84f5f4dff'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2LJH22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class:/home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub:/home/leyla/Desktop/robotica_ws/install/my_package_c:/home/leyla/Desktop/robotica_ws/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:30b55469-9964-4cc2-bd58-3c49e506dae5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leyla/Desktop/clase1/ejemplo1_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class/lib/python3.10/site-packages:/home/leyla/Desktop/robotica_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub:/home/leyla/Desktop/robotica_ws/install/my_package_c:/home/leyla/Desktop/clase1/ejemplo1_ws/install/my_package_class:/home/leyla/Desktop/robotica_ws/install/my_package:/opt/ros/humble')]), 'shell': False}
+[5.994812] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.994984] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/lib/cpp_pubsub/pub\n'}
+[5.996186] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/lib/cpp_pubsub/pub" to ""\n'}
+[5.996308] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/lib/cpp_pubsub/sub\n'}
+[5.999974] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/lib/cpp_pubsub/sub" to ""\n'}
+[6.000148] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/lib/cpp_pubsub/pub_sub\n'}
+[6.004548] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/lib/cpp_pubsub/pub_sub" to ""\n'}
+[6.004693] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[6.004751] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[6.004800] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[6.004846] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[6.005111] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[6.005243] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[6.005302] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[6.005352] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[6.005495] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[6.005728] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[6.005787] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[6.005836] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[6.005895] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[6.005941] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[6.006022] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/leyla/Desktop/clase1/ejemplo1_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[6.007367] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[6.015491] (-) TimerEvent: {}
+[6.018372] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[6.018829] (-) EventReactorShutdown: {}

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ucb_interface/srv/Addtwonumbers.srv
+// generated code does not contain a copyright notice
+
+
+module ucb_interface {
+  module srv {
+    struct Addtwonumbers_Request {
+      int64 a;
+
+      int64 b;
+    };
+    struct Addtwonumbers_Response {
+      int64 sum;
+    };
+  };
+};
