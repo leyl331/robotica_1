@@ -1,0 +1,35 @@
+running egg_info
+writing ../../build/package_py/package_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/package_py/package_py.egg-info/dependency_links.txt
+writing entry points to ../../build/package_py/package_py.egg-info/entry_points.txt
+writing requirements to ../../build/package_py/package_py.egg-info/requires.txt
+writing top-level names to ../../build/package_py/package_py.egg-info/top_level.txt
+reading manifest file '../../build/package_py/package_py.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/package_py/package_py.egg-info/SOURCES.txt'
+running build
+running build_py
+copying package_py/e2_n1.py -> /home/leyla/Desktop/clase1/prac1_ws/build/package_py/build/lib/package_py
+copying package_py/e2_n2.py -> /home/leyla/Desktop/clase1/prac1_ws/build/package_py/build/lib/package_py
+copying package_py/e2_n3.py -> /home/leyla/Desktop/clase1/prac1_ws/build/package_py/build/lib/package_py
+running install
+running install_lib
+copying /home/leyla/Desktop/clase1/prac1_ws/build/package_py/build/lib/package_py/e2_n1.py -> /home/leyla/Desktop/clase1/prac1_ws/install/package_py/lib/python3.10/site-packages/package_py
+copying /home/leyla/Desktop/clase1/prac1_ws/build/package_py/build/lib/package_py/e2_n2.py -> /home/leyla/Desktop/clase1/prac1_ws/install/package_py/lib/python3.10/site-packages/package_py
+copying /home/leyla/Desktop/clase1/prac1_ws/build/package_py/build/lib/package_py/e2_n3.py -> /home/leyla/Desktop/clase1/prac1_ws/install/package_py/lib/python3.10/site-packages/package_py
+byte-compiling /home/leyla/Desktop/clase1/prac1_ws/install/package_py/lib/python3.10/site-packages/package_py/e2_n1.py to e2_n1.cpython-310.pyc
+byte-compiling /home/leyla/Desktop/clase1/prac1_ws/install/package_py/lib/python3.10/site-packages/package_py/e2_n2.py to e2_n2.cpython-310.pyc
+byte-compiling /home/leyla/Desktop/clase1/prac1_ws/install/package_py/lib/python3.10/site-packages/package_py/e2_n3.py to e2_n3.cpython-310.pyc
+running install_data
+copying package.xml -> /home/leyla/Desktop/clase1/prac1_ws/install/package_py/share/package_py
+running install_egg_info
+removing '/home/leyla/Desktop/clase1/prac1_ws/install/package_py/lib/python3.10/site-packages/package_py-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/package_py/package_py.egg-info to /home/leyla/Desktop/clase1/prac1_ws/install/package_py/lib/python3.10/site-packages/package_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing e2n1 script to /home/leyla/Desktop/clase1/prac1_ws/install/package_py/lib/package_py
+Installing e2n2 script to /home/leyla/Desktop/clase1/prac1_ws/install/package_py/lib/package_py
+Installing e2n3 script to /home/leyla/Desktop/clase1/prac1_ws/install/package_py/lib/package_py
+Installing node1 script to /home/leyla/Desktop/clase1/prac1_ws/install/package_py/lib/package_py
+Installing node2 script to /home/leyla/Desktop/clase1/prac1_ws/install/package_py/lib/package_py
+Installing node3 script to /home/leyla/Desktop/clase1/prac1_ws/install/package_py/lib/package_py
+writing list of installed files to '/home/leyla/Desktop/clase1/prac1_ws/build/package_py/install.log'

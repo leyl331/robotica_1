@@ -1,0 +1,8 @@
+[console_scripts]
+e2n1 = package_py.e2_n1:main
+e2n2 = package_py.e2_n2:main
+e2n3 = package_py.e2_n3:main
+node1 = package_py.node1:main
+node2 = package_py.node2:main
+node3 = package_py.node3:main
+
