@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interface/srv/Service.srv
+// generated code does not contain a copyright notice
+
+
+module interface {
+  module srv {
+    struct Service_Request {
+      double a1;
+
+      double a2;
+
+      double a3;
+
+      double a4;
+    };
+    struct Service_Response {
+      double x;
+
+      double y;
+
+      double z;
+
+      double ya;
+
+      double pi;
+
+      double ro;
+    };
+  };
+};

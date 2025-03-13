@@ -1,0 +1,31 @@
+[0.364s] Invoking command in '/home/leyla/Desktop/prueba/test_ws/src/pkg_py': CMAKE_PREFIX_PATH=/home/leyla/Desktop/prueba/test_ws/install/interface:/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp:/home/leyla/Desktop/robotica_ws/install/my_package_c:/home/leyla/Desktop/clase1_alone/sol_clase_ws/install/more_interfaces:/home/leyla/Desktop/clase1_alone/prac1_ws/install/e3_interface:/home/leyla/Desktop/clase1_alone/clases_ws/install/ucb_interface:/home/leyla/Desktop/clase1_alone/clases_ws/install/cpp_pubsub PYTHONPATH=/home/leyla/Desktop/prueba/test_ws/build/pkg_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/prueba/test_ws/install/pkg_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_py build --build-base /home/leyla/Desktop/prueba/test_ws/build/pkg_py/build install --record /home/leyla/Desktop/prueba/test_ws/build/pkg_py/install.log --single-version-externally-managed install_data
+[0.503s] running egg_info
+[0.504s] writing ../../build/pkg_py/pkg_py.egg-info/PKG-INFO
+[0.504s] writing dependency_links to ../../build/pkg_py/pkg_py.egg-info/dependency_links.txt
+[0.504s] writing entry points to ../../build/pkg_py/pkg_py.egg-info/entry_points.txt
+[0.504s] writing requirements to ../../build/pkg_py/pkg_py.egg-info/requires.txt
+[0.504s] writing top-level names to ../../build/pkg_py/pkg_py.egg-info/top_level.txt
+[0.505s] reading manifest file '../../build/pkg_py/pkg_py.egg-info/SOURCES.txt'
+[0.514s] adding license file 'LICENSE'
+[0.514s] writing manifest file '../../build/pkg_py/pkg_py.egg-info/SOURCES.txt'
+[0.514s] running build
+[0.514s] running build_py
+[0.514s] copying pkg_py/e1_server.py -> /home/leyla/Desktop/prueba/test_ws/build/pkg_py/build/lib/pkg_py
+[0.514s] copying pkg_py/e1_client.py -> /home/leyla/Desktop/prueba/test_ws/build/pkg_py/build/lib/pkg_py
+[0.515s] running install
+[0.515s] running install_lib
+[0.515s] copying /home/leyla/Desktop/prueba/test_ws/build/pkg_py/build/lib/pkg_py/e1_server.py -> /home/leyla/Desktop/prueba/test_ws/install/pkg_py/lib/python3.10/site-packages/pkg_py
+[0.515s] copying /home/leyla/Desktop/prueba/test_ws/build/pkg_py/build/lib/pkg_py/e1_client.py -> /home/leyla/Desktop/prueba/test_ws/install/pkg_py/lib/python3.10/site-packages/pkg_py
+[0.515s] byte-compiling /home/leyla/Desktop/prueba/test_ws/install/pkg_py/lib/python3.10/site-packages/pkg_py/e1_server.py to e1_server.cpython-310.pyc
+[0.516s] byte-compiling /home/leyla/Desktop/prueba/test_ws/install/pkg_py/lib/python3.10/site-packages/pkg_py/e1_client.py to e1_client.cpython-310.pyc
+[0.516s] running install_data
+[0.516s] running install_egg_info
+[0.518s] removing '/home/leyla/Desktop/prueba/test_ws/install/pkg_py/lib/python3.10/site-packages/pkg_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.518s] Copying ../../build/pkg_py/pkg_py.egg-info to /home/leyla/Desktop/prueba/test_ws/install/pkg_py/lib/python3.10/site-packages/pkg_py-0.0.0-py3.10.egg-info
+[0.518s] running install_scripts
+[0.532s] Installing e1_client script to /home/leyla/Desktop/prueba/test_ws/install/pkg_py/lib/pkg_py
+[0.532s] Installing e1_pub script to /home/leyla/Desktop/prueba/test_ws/install/pkg_py/lib/pkg_py
+[0.532s] Installing e1_server script to /home/leyla/Desktop/prueba/test_ws/install/pkg_py/lib/pkg_py
+[0.532s] Installing e1_sub script to /home/leyla/Desktop/prueba/test_ws/install/pkg_py/lib/pkg_py
+[0.532s] writing list of installed files to '/home/leyla/Desktop/prueba/test_ws/build/pkg_py/install.log'
+[0.546s] Invoked command in '/home/leyla/Desktop/prueba/test_ws/src/pkg_py' returned '0': CMAKE_PREFIX_PATH=/home/leyla/Desktop/prueba/test_ws/install/interface:/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp:/home/leyla/Desktop/robotica_ws/install/my_package_c:/home/leyla/Desktop/clase1_alone/sol_clase_ws/install/more_interfaces:/home/leyla/Desktop/clase1_alone/prac1_ws/install/e3_interface:/home/leyla/Desktop/clase1_alone/clases_ws/install/ucb_interface:/home/leyla/Desktop/clase1_alone/clases_ws/install/cpp_pubsub PYTHONPATH=/home/leyla/Desktop/prueba/test_ws/build/pkg_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/prueba/test_ws/install/pkg_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_py build --build-base /home/leyla/Desktop/prueba/test_ws/build/pkg_py/build install --record /home/leyla/Desktop/prueba/test_ws/build/pkg_py/install.log --single-version-externally-managed install_data

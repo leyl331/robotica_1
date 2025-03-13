@@ -1,0 +1,11 @@
+/home/leyla/Desktop/prueba/test_ws/build/pkg_cpp/CMakeFiles/uninstall.dir
+/home/leyla/Desktop/prueba/test_ws/build/pkg_cpp/CMakeFiles/pkg_cpp_uninstall.dir
+/home/leyla/Desktop/prueba/test_ws/build/pkg_cpp/CMakeFiles/pub.dir
+/home/leyla/Desktop/prueba/test_ws/build/pkg_cpp/CMakeFiles/sub.dir
+/home/leyla/Desktop/prueba/test_ws/build/pkg_cpp/CMakeFiles/test.dir
+/home/leyla/Desktop/prueba/test_ws/build/pkg_cpp/CMakeFiles/edit_cache.dir
+/home/leyla/Desktop/prueba/test_ws/build/pkg_cpp/CMakeFiles/rebuild_cache.dir
+/home/leyla/Desktop/prueba/test_ws/build/pkg_cpp/CMakeFiles/list_install_components.dir
+/home/leyla/Desktop/prueba/test_ws/build/pkg_cpp/CMakeFiles/install.dir
+/home/leyla/Desktop/prueba/test_ws/build/pkg_cpp/CMakeFiles/install/local.dir
+/home/leyla/Desktop/prueba/test_ws/build/pkg_cpp/CMakeFiles/install/strip.dir

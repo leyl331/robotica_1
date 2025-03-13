@@ -1,0 +1,6 @@
+[console_scripts]
+e1_client = pkg_py.e1_client:main
+e1_pub = pkg_py.e1_pub:main
+e1_server = pkg_py.e1_server:main
+e1_sub = pkg_py.e1_sub:main
+

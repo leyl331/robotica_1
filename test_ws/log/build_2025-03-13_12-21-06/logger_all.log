@@ -1,0 +1,269 @@
+[0.116s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.116s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x79b842040e80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79b842040a30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79b842040a30>>)
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.286s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/leyla/Desktop/prueba/test_ws'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface) by extension 'ros'
+[0.304s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interface' with type 'ros.ament_cmake' and name 'interface'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_cpp) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_cpp) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_cpp) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_cpp) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_cpp) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_cpp) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_cpp) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_cpp) by extension 'ros'
+[0.306s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg_cpp' with type 'ros.ament_cmake' and name 'pkg_cpp'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_py) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_py) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_py) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_py) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_py) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_py) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_py) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_py) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/pkg_py) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pkg_py' with type 'ros.ament_python' and name 'pkg_py'
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.334s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/leyla/Desktop/prueba/test_ws/install
+[0.335s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/leyla/Desktop/repositorio_lipa/robotica_1/install
+[0.335s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/leyla/Desktop/robotica_ws/install
+[0.335s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/leyla/Desktop/revisiones/alejandro_ws/install
+[0.336s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/leyla/Desktop/clase1_alone/sol_clase_ws/install
+[0.336s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/leyla/Desktop/clase1_alone/prac1_ws/install
+[0.337s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/leyla/Desktop/clase1_alone/clases_ws/install
+[0.338s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'cmake_target' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.387s] DEBUG:colcon.colcon_core.verb:Building package 'interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leyla/Desktop/prueba/test_ws/build/interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leyla/Desktop/prueba/test_ws/install/interface', 'merge_install': False, 'path': '/home/leyla/Desktop/prueba/test_ws/src/interface', 'symlink_install': False, 'test_result_base': None}
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'pkg_cpp' build argument 'cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'pkg_cpp' build argument 'cmake_target' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'pkg_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'pkg_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'pkg_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'pkg_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'pkg_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'pkg_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'pkg_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.388s] DEBUG:colcon.colcon_core.verb:Building package 'pkg_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leyla/Desktop/prueba/test_ws/build/pkg_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp', 'merge_install': False, 'path': '/home/leyla/Desktop/prueba/test_ws/src/pkg_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'pkg_py' build argument 'cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'pkg_py' build argument 'cmake_target' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'pkg_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'pkg_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'pkg_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'pkg_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'pkg_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'pkg_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'pkg_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.389s] DEBUG:colcon.colcon_core.verb:Building package 'pkg_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leyla/Desktop/prueba/test_ws/build/pkg_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leyla/Desktop/prueba/test_ws/install/pkg_py', 'merge_install': False, 'path': '/home/leyla/Desktop/prueba/test_ws/src/pkg_py', 'symlink_install': False, 'test_result_base': None}
+[0.389s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.390s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.390s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leyla/Desktop/prueba/test_ws/src/interface' with build type 'ament_cmake'
+[0.390s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leyla/Desktop/prueba/test_ws/src/interface'
+[0.393s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.393s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.393s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.399s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leyla/Desktop/prueba/test_ws/src/pkg_cpp' with build type 'ament_cmake'
+[0.399s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leyla/Desktop/prueba/test_ws/src/pkg_cpp'
+[0.399s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.399s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leyla/Desktop/prueba/test_ws/build/interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/prueba/test_ws/install/pkg_py:/home/leyla/Desktop/repositorio_lipa/robotica_1/install/package_py:/home/leyla/Desktop/robotica_ws/install/my_package:/home/leyla/Desktop/revisiones/alejandro_ws/install/mi_practica1ej2:/home/leyla/Desktop/revisiones/alejandro_ws/install/mi_practica1ej1:/home/leyla/Desktop/clase1_alone/sol_clase_ws/install/py_srvcli:/home/leyla/Desktop/clase1_alone/prac1_ws/install/package_py:/home/leyla/Desktop/clase1_alone/clases_ws/install/my_package_class:/opt/ros/humble /usr/bin/cmake --build /home/leyla/Desktop/prueba/test_ws/build/interface -- -j20 -l20
+[0.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leyla/Desktop/prueba/test_ws/build/pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/prueba/test_ws/install/pkg_py:/home/leyla/Desktop/repositorio_lipa/robotica_1/install/package_py:/home/leyla/Desktop/robotica_ws/install/my_package:/home/leyla/Desktop/revisiones/alejandro_ws/install/mi_practica1ej2:/home/leyla/Desktop/revisiones/alejandro_ws/install/mi_practica1ej1:/home/leyla/Desktop/clase1_alone/sol_clase_ws/install/py_srvcli:/home/leyla/Desktop/clase1_alone/prac1_ws/install/package_py:/home/leyla/Desktop/clase1_alone/clases_ws/install/my_package_class:/opt/ros/humble /usr/bin/cmake --build /home/leyla/Desktop/prueba/test_ws/build/pkg_cpp -- -j20 -l20
+[0.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leyla/Desktop/prueba/test_ws/build/pkg_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/prueba/test_ws/install/pkg_py:/home/leyla/Desktop/repositorio_lipa/robotica_1/install/package_py:/home/leyla/Desktop/robotica_ws/install/my_package:/home/leyla/Desktop/revisiones/alejandro_ws/install/mi_practica1ej2:/home/leyla/Desktop/revisiones/alejandro_ws/install/mi_practica1ej1:/home/leyla/Desktop/clase1_alone/sol_clase_ws/install/py_srvcli:/home/leyla/Desktop/clase1_alone/prac1_ws/install/package_py:/home/leyla/Desktop/clase1_alone/clases_ws/install/my_package_class:/opt/ros/humble /usr/bin/cmake --build /home/leyla/Desktop/prueba/test_ws/build/pkg_cpp -- -j20 -l20
+[0.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leyla/Desktop/prueba/test_ws/build/pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/prueba/test_ws/install/pkg_py:/home/leyla/Desktop/repositorio_lipa/robotica_1/install/package_py:/home/leyla/Desktop/robotica_ws/install/my_package:/home/leyla/Desktop/revisiones/alejandro_ws/install/mi_practica1ej2:/home/leyla/Desktop/revisiones/alejandro_ws/install/mi_practica1ej1:/home/leyla/Desktop/clase1_alone/sol_clase_ws/install/py_srvcli:/home/leyla/Desktop/clase1_alone/prac1_ws/install/package_py:/home/leyla/Desktop/clase1_alone/clases_ws/install/my_package_class:/opt/ros/humble /usr/bin/cmake --install /home/leyla/Desktop/prueba/test_ws/build/pkg_cpp
+[0.552s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_cpp)
+[0.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leyla/Desktop/prueba/test_ws/build/pkg_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/prueba/test_ws/install/pkg_py:/home/leyla/Desktop/repositorio_lipa/robotica_1/install/package_py:/home/leyla/Desktop/robotica_ws/install/my_package:/home/leyla/Desktop/revisiones/alejandro_ws/install/mi_practica1ej2:/home/leyla/Desktop/revisiones/alejandro_ws/install/mi_practica1ej1:/home/leyla/Desktop/clase1_alone/sol_clase_ws/install/py_srvcli:/home/leyla/Desktop/clase1_alone/prac1_ws/install/package_py:/home/leyla/Desktop/clase1_alone/clases_ws/install/my_package_class:/opt/ros/humble /usr/bin/cmake --install /home/leyla/Desktop/prueba/test_ws/build/pkg_cpp
+[0.557s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp' for CMake module files
+[0.558s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp' for CMake config files
+[0.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_cpp', 'cmake_prefix_path')
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/hook/cmake_prefix_path.ps1'
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/hook/cmake_prefix_path.dsv'
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/hook/cmake_prefix_path.sh'
+[0.562s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/lib'
+[0.562s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/bin'
+[0.562s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/lib/pkgconfig/pkg_cpp.pc'
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/lib/python3.10/site-packages'
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/bin'
+[0.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/package.ps1'
+[0.564s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/package.dsv'
+[0.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/package.sh'
+[0.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/package.bash'
+[0.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/package.zsh'
+[0.568s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/colcon-core/packages/pkg_cpp)
+[0.569s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_cpp)
+[0.569s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp' for CMake module files
+[0.570s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp' for CMake config files
+[0.570s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_cpp', 'cmake_prefix_path')
+[0.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/hook/cmake_prefix_path.ps1'
+[0.571s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/hook/cmake_prefix_path.dsv'
+[0.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/hook/cmake_prefix_path.sh'
+[0.572s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/lib'
+[0.572s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/bin'
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/lib/pkgconfig/pkg_cpp.pc'
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/lib/python3.10/site-packages'
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/bin'
+[0.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/package.ps1'
+[0.574s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/package.dsv'
+[0.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/package.sh'
+[0.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/package.bash'
+[0.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/package.zsh'
+[0.577s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/colcon-core/packages/pkg_cpp)
+[0.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leyla/Desktop/prueba/test_ws/build/interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/prueba/test_ws/install/pkg_py:/home/leyla/Desktop/repositorio_lipa/robotica_1/install/package_py:/home/leyla/Desktop/robotica_ws/install/my_package:/home/leyla/Desktop/revisiones/alejandro_ws/install/mi_practica1ej2:/home/leyla/Desktop/revisiones/alejandro_ws/install/mi_practica1ej1:/home/leyla/Desktop/clase1_alone/sol_clase_ws/install/py_srvcli:/home/leyla/Desktop/clase1_alone/prac1_ws/install/package_py:/home/leyla/Desktop/clase1_alone/clases_ws/install/my_package_class:/opt/ros/humble /usr/bin/cmake --build /home/leyla/Desktop/prueba/test_ws/build/interface -- -j20 -l20
+[0.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leyla/Desktop/prueba/test_ws/build/interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/prueba/test_ws/install/pkg_py:/home/leyla/Desktop/repositorio_lipa/robotica_1/install/package_py:/home/leyla/Desktop/robotica_ws/install/my_package:/home/leyla/Desktop/revisiones/alejandro_ws/install/mi_practica1ej2:/home/leyla/Desktop/revisiones/alejandro_ws/install/mi_practica1ej1:/home/leyla/Desktop/clase1_alone/sol_clase_ws/install/py_srvcli:/home/leyla/Desktop/clase1_alone/prac1_ws/install/package_py:/home/leyla/Desktop/clase1_alone/clases_ws/install/my_package_class:/opt/ros/humble /usr/bin/cmake --install /home/leyla/Desktop/prueba/test_ws/build/interface
+[1.052s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interface)
+[1.052s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/interface' for CMake module files
+[1.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leyla/Desktop/prueba/test_ws/build/interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/prueba/test_ws/install/pkg_py:/home/leyla/Desktop/repositorio_lipa/robotica_1/install/package_py:/home/leyla/Desktop/robotica_ws/install/my_package:/home/leyla/Desktop/revisiones/alejandro_ws/install/mi_practica1ej2:/home/leyla/Desktop/revisiones/alejandro_ws/install/mi_practica1ej1:/home/leyla/Desktop/clase1_alone/sol_clase_ws/install/py_srvcli:/home/leyla/Desktop/clase1_alone/prac1_ws/install/package_py:/home/leyla/Desktop/clase1_alone/clases_ws/install/my_package_class:/opt/ros/humble /usr/bin/cmake --install /home/leyla/Desktop/prueba/test_ws/build/interface
+[1.053s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/interface' for CMake config files
+[1.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface', 'cmake_prefix_path')
+[1.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/prueba/test_ws/install/interface/share/interface/hook/cmake_prefix_path.ps1'
+[1.054s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/prueba/test_ws/install/interface/share/interface/hook/cmake_prefix_path.dsv'
+[1.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/prueba/test_ws/install/interface/share/interface/hook/cmake_prefix_path.sh'
+[1.055s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/interface/lib'
+[1.055s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface', 'ld_library_path_lib')
+[1.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/prueba/test_ws/install/interface/share/interface/hook/ld_library_path_lib.ps1'
+[1.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/prueba/test_ws/install/interface/share/interface/hook/ld_library_path_lib.dsv'
+[1.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/prueba/test_ws/install/interface/share/interface/hook/ld_library_path_lib.sh'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/interface/bin'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/interface/lib/pkgconfig/interface.pc'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/interface/lib/python3.10/site-packages'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/interface/bin'
+[1.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/prueba/test_ws/install/interface/share/interface/package.ps1'
+[1.058s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leyla/Desktop/prueba/test_ws/install/interface/share/interface/package.dsv'
+[1.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/prueba/test_ws/install/interface/share/interface/package.sh'
+[1.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/prueba/test_ws/install/interface/share/interface/package.bash'
+[1.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/prueba/test_ws/install/interface/share/interface/package.zsh'
+[1.060s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leyla/Desktop/prueba/test_ws/install/interface/share/colcon-core/packages/interface)
+[1.061s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interface)
+[1.061s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/interface' for CMake module files
+[1.062s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/interface' for CMake config files
+[1.062s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface', 'cmake_prefix_path')
+[1.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/prueba/test_ws/install/interface/share/interface/hook/cmake_prefix_path.ps1'
+[1.063s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/prueba/test_ws/install/interface/share/interface/hook/cmake_prefix_path.dsv'
+[1.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/prueba/test_ws/install/interface/share/interface/hook/cmake_prefix_path.sh'
+[1.064s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/interface/lib'
+[1.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface', 'ld_library_path_lib')
+[1.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/prueba/test_ws/install/interface/share/interface/hook/ld_library_path_lib.ps1'
+[1.065s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/prueba/test_ws/install/interface/share/interface/hook/ld_library_path_lib.dsv'
+[1.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/prueba/test_ws/install/interface/share/interface/hook/ld_library_path_lib.sh'
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/interface/bin'
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/interface/lib/pkgconfig/interface.pc'
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/interface/lib/python3.10/site-packages'
+[1.067s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/interface/bin'
+[1.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/prueba/test_ws/install/interface/share/interface/package.ps1'
+[1.068s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leyla/Desktop/prueba/test_ws/install/interface/share/interface/package.dsv'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/prueba/test_ws/install/interface/share/interface/package.sh'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/prueba/test_ws/install/interface/share/interface/package.bash'
+[1.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/prueba/test_ws/install/interface/share/interface/package.zsh'
+[1.070s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leyla/Desktop/prueba/test_ws/install/interface/share/colcon-core/packages/interface)
+[1.071s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leyla/Desktop/prueba/test_ws/src/pkg_py' with build type 'ament_python'
+[1.071s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_py', 'ament_prefix_path')
+[1.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/prueba/test_ws/install/pkg_py/share/pkg_py/hook/ament_prefix_path.ps1'
+[1.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/prueba/test_ws/install/pkg_py/share/pkg_py/hook/ament_prefix_path.dsv'
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/prueba/test_ws/install/pkg_py/share/pkg_py/hook/ament_prefix_path.sh'
+[1.075s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.075s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.370s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leyla/Desktop/prueba/test_ws/src/pkg_py'
+[1.370s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.370s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leyla/Desktop/prueba/test_ws/src/pkg_py': CMAKE_PREFIX_PATH=/home/leyla/Desktop/prueba/test_ws/install/interface:/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp:/home/leyla/Desktop/robotica_ws/install/my_package_c:/home/leyla/Desktop/clase1_alone/sol_clase_ws/install/more_interfaces:/home/leyla/Desktop/clase1_alone/prac1_ws/install/e3_interface:/home/leyla/Desktop/clase1_alone/clases_ws/install/ucb_interface:/home/leyla/Desktop/clase1_alone/clases_ws/install/cpp_pubsub PYTHONPATH=/home/leyla/Desktop/prueba/test_ws/build/pkg_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/prueba/test_ws/install/pkg_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_py build --build-base /home/leyla/Desktop/prueba/test_ws/build/pkg_py/build install --record /home/leyla/Desktop/prueba/test_ws/build/pkg_py/install.log --single-version-externally-managed install_data
+[2.090s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/pkg_py' for CMake module files
+[2.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leyla/Desktop/prueba/test_ws/src/pkg_py' returned '0': CMAKE_PREFIX_PATH=/home/leyla/Desktop/prueba/test_ws/install/interface:/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp:/home/leyla/Desktop/robotica_ws/install/my_package_c:/home/leyla/Desktop/clase1_alone/sol_clase_ws/install/more_interfaces:/home/leyla/Desktop/clase1_alone/prac1_ws/install/e3_interface:/home/leyla/Desktop/clase1_alone/clases_ws/install/ucb_interface:/home/leyla/Desktop/clase1_alone/clases_ws/install/cpp_pubsub PYTHONPATH=/home/leyla/Desktop/prueba/test_ws/build/pkg_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leyla/Desktop/prueba/test_ws/install/pkg_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pkg_py build --build-base /home/leyla/Desktop/prueba/test_ws/build/pkg_py/build install --record /home/leyla/Desktop/prueba/test_ws/build/pkg_py/install.log --single-version-externally-managed install_data
+[2.091s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/pkg_py' for CMake config files
+[2.092s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/pkg_py/lib'
+[2.092s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/pkg_py/bin'
+[2.092s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/pkg_py/lib/pkgconfig/pkg_py.pc'
+[2.093s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/pkg_py/lib/python3.10/site-packages'
+[2.093s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_py', 'pythonpath')
+[2.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/prueba/test_ws/install/pkg_py/share/pkg_py/hook/pythonpath.ps1'
+[2.094s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leyla/Desktop/prueba/test_ws/install/pkg_py/share/pkg_py/hook/pythonpath.dsv'
+[2.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leyla/Desktop/prueba/test_ws/install/pkg_py/share/pkg_py/hook/pythonpath.sh'
+[2.095s] Level 1:colcon.colcon_core.environment:checking '/home/leyla/Desktop/prueba/test_ws/install/pkg_py/bin'
+[2.095s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_py)
+[2.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/prueba/test_ws/install/pkg_py/share/pkg_py/package.ps1'
+[2.096s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leyla/Desktop/prueba/test_ws/install/pkg_py/share/pkg_py/package.dsv'
+[2.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/prueba/test_ws/install/pkg_py/share/pkg_py/package.sh'
+[2.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/prueba/test_ws/install/pkg_py/share/pkg_py/package.bash'
+[2.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/leyla/Desktop/prueba/test_ws/install/pkg_py/share/pkg_py/package.zsh'
+[2.098s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leyla/Desktop/prueba/test_ws/install/pkg_py/share/colcon-core/packages/pkg_py)
+[2.098s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.099s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.099s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.099s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.104s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.104s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.104s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.120s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.120s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leyla/Desktop/prueba/test_ws/install/local_setup.ps1'
+[2.122s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leyla/Desktop/prueba/test_ws/install/_local_setup_util_ps1.py'
+[2.125s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leyla/Desktop/prueba/test_ws/install/setup.ps1'
+[2.128s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leyla/Desktop/prueba/test_ws/install/local_setup.sh'
+[2.128s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leyla/Desktop/prueba/test_ws/install/_local_setup_util_sh.py'
+[2.129s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leyla/Desktop/prueba/test_ws/install/setup.sh'
+[2.131s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leyla/Desktop/prueba/test_ws/install/local_setup.bash'
+[2.132s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leyla/Desktop/prueba/test_ws/install/setup.bash'
+[2.134s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leyla/Desktop/prueba/test_ws/install/local_setup.zsh'
+[2.135s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leyla/Desktop/prueba/test_ws/install/setup.zsh'

@@ -1,0 +1,24 @@
+[0.014s] Invoking command in '/home/leyla/Desktop/prueba/test_ws/build/pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/prueba/test_ws/install/pkg_py:/home/leyla/Desktop/repositorio_lipa/robotica_1/install/package_py:/home/leyla/Desktop/robotica_ws/install/my_package:/home/leyla/Desktop/revisiones/alejandro_ws/install/mi_practica1ej2:/home/leyla/Desktop/revisiones/alejandro_ws/install/mi_practica1ej1:/home/leyla/Desktop/clase1_alone/sol_clase_ws/install/py_srvcli:/home/leyla/Desktop/clase1_alone/prac1_ws/install/package_py:/home/leyla/Desktop/clase1_alone/clases_ws/install/my_package_class:/opt/ros/humble /usr/bin/cmake --build /home/leyla/Desktop/prueba/test_ws/build/pkg_cpp -- -j20 -l20
+[0.059s] [ 50%] Built target pub
+[0.059s] [100%] Built target sub
+[0.078s] Invoked command in '/home/leyla/Desktop/prueba/test_ws/build/pkg_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/prueba/test_ws/install/pkg_py:/home/leyla/Desktop/repositorio_lipa/robotica_1/install/package_py:/home/leyla/Desktop/robotica_ws/install/my_package:/home/leyla/Desktop/revisiones/alejandro_ws/install/mi_practica1ej2:/home/leyla/Desktop/revisiones/alejandro_ws/install/mi_practica1ej1:/home/leyla/Desktop/clase1_alone/sol_clase_ws/install/py_srvcli:/home/leyla/Desktop/clase1_alone/prac1_ws/install/package_py:/home/leyla/Desktop/clase1_alone/clases_ws/install/my_package_class:/opt/ros/humble /usr/bin/cmake --build /home/leyla/Desktop/prueba/test_ws/build/pkg_cpp -- -j20 -l20
+[0.088s] Invoking command in '/home/leyla/Desktop/prueba/test_ws/build/pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/prueba/test_ws/install/pkg_py:/home/leyla/Desktop/repositorio_lipa/robotica_1/install/package_py:/home/leyla/Desktop/robotica_ws/install/my_package:/home/leyla/Desktop/revisiones/alejandro_ws/install/mi_practica1ej2:/home/leyla/Desktop/revisiones/alejandro_ws/install/mi_practica1ej1:/home/leyla/Desktop/clase1_alone/sol_clase_ws/install/py_srvcli:/home/leyla/Desktop/clase1_alone/prac1_ws/install/package_py:/home/leyla/Desktop/clase1_alone/clases_ws/install/my_package_class:/opt/ros/humble /usr/bin/cmake --install /home/leyla/Desktop/prueba/test_ws/build/pkg_cpp
+[0.092s] -- Install configuration: ""
+[0.092s] -- Up-to-date: /home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/lib/pkg_cpp/pub
+[0.092s] -- Up-to-date: /home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/lib/pkg_cpp/sub
+[0.092s] -- Up-to-date: /home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/ament_index/resource_index/package_run_dependencies/pkg_cpp
+[0.092s] -- Up-to-date: /home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/ament_index/resource_index/parent_prefix_path/pkg_cpp
+[0.092s] -- Up-to-date: /home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/environment/ament_prefix_path.sh
+[0.092s] -- Up-to-date: /home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/environment/ament_prefix_path.dsv
+[0.092s] -- Up-to-date: /home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/environment/path.sh
+[0.092s] -- Up-to-date: /home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/environment/path.dsv
+[0.092s] -- Up-to-date: /home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/local_setup.bash
+[0.093s] -- Up-to-date: /home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/local_setup.sh
+[0.093s] -- Up-to-date: /home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/local_setup.zsh
+[0.093s] -- Up-to-date: /home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/local_setup.dsv
+[0.093s] -- Installing: /home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/package.dsv
+[0.094s] -- Up-to-date: /home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/ament_index/resource_index/packages/pkg_cpp
+[0.094s] -- Up-to-date: /home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/cmake/pkg_cppConfig.cmake
+[0.094s] -- Up-to-date: /home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/cmake/pkg_cppConfig-version.cmake
+[0.094s] -- Up-to-date: /home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/package.xml
+[0.094s] Invoked command in '/home/leyla/Desktop/prueba/test_ws/build/pkg_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leyla/Desktop/prueba/test_ws/install/pkg_py:/home/leyla/Desktop/repositorio_lipa/robotica_1/install/package_py:/home/leyla/Desktop/robotica_ws/install/my_package:/home/leyla/Desktop/revisiones/alejandro_ws/install/mi_practica1ej2:/home/leyla/Desktop/revisiones/alejandro_ws/install/mi_practica1ej1:/home/leyla/Desktop/clase1_alone/sol_clase_ws/install/py_srvcli:/home/leyla/Desktop/clase1_alone/prac1_ws/install/package_py:/home/leyla/Desktop/clase1_alone/clases_ws/install/my_package_class:/opt/ros/humble /usr/bin/cmake --install /home/leyla/Desktop/prueba/test_ws/build/pkg_cpp

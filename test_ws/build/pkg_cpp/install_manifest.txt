@@ -1,0 +1,17 @@
+/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/lib/pkg_cpp/pub
+/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/lib/pkg_cpp/sub
+/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/ament_index/resource_index/package_run_dependencies/pkg_cpp
+/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/ament_index/resource_index/parent_prefix_path/pkg_cpp
+/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/environment/ament_prefix_path.sh
+/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/environment/ament_prefix_path.dsv
+/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/environment/path.sh
+/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/environment/path.dsv
+/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/local_setup.bash
+/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/local_setup.sh
+/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/local_setup.zsh
+/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/local_setup.dsv
+/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/package.dsv
+/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/ament_index/resource_index/packages/pkg_cpp
+/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/cmake/pkg_cppConfig.cmake
+/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/cmake/pkg_cppConfig-version.cmake
+/home/leyla/Desktop/prueba/test_ws/install/pkg_cpp/share/pkg_cpp/package.xml
